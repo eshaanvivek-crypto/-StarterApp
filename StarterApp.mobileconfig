@@ -2,48 +2,26 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>PayloadContent</key>
-  <array>
-    <dict>
-      <key>FullScreen</key>
-      <true/>
-      <key>IsRemovable</key>
-      <true/>
-      <key>Label</key>
-      <string>StarterApp</string>
-      <key>PayloadDescription</key>
-      <string>Adds a Home Screen shortcut to StarterApp.</string>
-      <key>PayloadDisplayName</key>
-      <string>StarterApp Web Clip</string>
-      <key>PayloadIdentifier</key>
-      <string>com.eshaan.starterapp.webclip</string>
-      <key>PayloadType</key>
-      <string>com.apple.webClip.managed</string>
-      <key>PayloadUUID</key>
-      <string>4B3C0F16-9F2B-4DB6-94E0-25D6E6A9B512</string>
-      <key>PayloadVersion</key>
-      <integer>1</integer>
-      <key>Precomposed</key>
-      <true/>
-      <key>URL</key>
-      <string>https://eshaanvivek-crypto.github.io/-StarterApp/</string>
-    </dict>
-  </array>
-  <key>PayloadDescription</key>
-  <string>Installs a Home Screen web shortcut for StarterApp. This is not a native iOS application.</string>
-  <key>PayloadDisplayName</key>
-  <string>StarterApp</string>
-  <key>PayloadIdentifier</key>
-  <string>com.eshaan.starterapp.profile</string>
-  <key>PayloadOrganization</key>
-  <string>StarterApp</string>
-  <key>PayloadRemovalDisallowed</key>
-  <false/>
-  <key>PayloadType</key>
-  <string>Configuration</string>
-  <key>PayloadUUID</key>
-  <string>9A20F0E7-2E64-48D5-AF48-8D15B9E4C1D0</string>
-  <key>PayloadVersion</key>
-  <integer>1</integer>
+  <key>PayloadContent</key><array><dict>
+    <key>FullScreen</key><true/>
+    <key>IsRemovable</key><true/>
+    <key>Label</key><string>StarterApp</string>
+    <key>PayloadDescription</key><string>Adds a Home Screen shortcut to StarterApp.</string>
+    <key>PayloadDisplayName</key><string>StarterApp Web Clip</string>
+    <key>PayloadIdentifier</key><string>com.eshaan.starterapp.webclip</string>
+    <key>PayloadType</key><string>com.apple.webClip.managed</string>
+    <key>PayloadUUID</key><string>4B3C0F16-9F2B-4DB6-94E0-25D6E6A9B512</string>
+    <key>PayloadVersion</key><integer>1</integer>
+    <key>Precomposed</key><true/>
+    <key>URL</key><string>https://eshaanvivek-crypto.github.io/-StarterApp/app.html</string>
+  </dict></array>
+  <key>PayloadDescription</key><string>Installs a removable Home Screen web shortcut for StarterApp. This is not a native iOS application.</string>
+  <key>PayloadDisplayName</key><string>StarterApp</string>
+  <key>PayloadIdentifier</key><string>com.eshaan.starterapp.profile</string>
+  <key>PayloadOrganization</key><string>StarterApp</string>
+  <key>PayloadRemovalDisallowed</key><false/>
+  <key>PayloadType</key><string>Configuration</string>
+  <key>PayloadUUID</key><string>9A20F0E7-2E64-48D5-AF48-8D15B9E4C1D0</string>
+  <key>PayloadVersion</key><integer>1</integer>
 </dict>
 </plist>
