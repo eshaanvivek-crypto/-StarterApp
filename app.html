@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#101827">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="StarterApp">
+  <meta name="description" content="StarterApp student dashboard demo.">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="stylesheet" href="style.css">
+  <title>StarterApp</title>
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <div class="brand-mark" aria-hidden="true">S</div>
+      <div><p class="eyebrow">YOUR SPACE</p><h1>StarterApp</h1></div>
+    </header>
+    <section class="hero">
+      <p class="eyebrow">WELCOME</p>
+      <h2>Your app starts here.</h2>
+      <p class="intro">A clean starting point for your next idea. Customize this screen and make it yours.</p>
+      <button id="startButton" class="primary-button">Get started <span aria-hidden="true">→</span></button>
+    </section>
+    <section class="content-card" aria-live="polite">
+      <div class="card-icon" aria-hidden="true">✦</div>
+      <div><h3 id="statusTitle">Ready when you are</h3><p id="statusText">Tap “Get started” to try the app.</p></div>
+    </section>
+    <footer><span>StarterApp</span><span id="connectionStatus">Checking connection…</span></footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
