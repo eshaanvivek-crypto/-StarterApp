@@ -23,6 +23,10 @@ Then open `http://localhost:8000` on the Mac. This is for local preview; it does
 
 ## Publish it
 
+This repository includes a GitHub Pages workflow. Push to `main`, then enable **Settings → Pages → GitHub Actions** once in the repository. The site will be published at:
+
+`https://eshaanvivek-crypto.github.io/-StarterApp/`
+
 Upload the contents of this folder to a static hosting provider that serves HTTPS, such as GitHub Pages, Netlify, or Cloudflare Pages. Keep the files together at the site root (or adjust the manifest and service-worker paths if deploying in a subfolder).
 
 After deployment, open the HTTPS URL in Safari on the iPhone.
@@ -35,7 +39,9 @@ After deployment, open the HTTPS URL in Safari on the iPhone.
 4. If shown, enable **Open as Web App**.
 5. Tap **Add**.
 
-The icon should appear on the Home Screen. This is a web app, not a signed native `.ipa`.
+The icon should appear on the Home Screen. This is a web app, not a signed native `.ipa`, so it does not require a paid Apple Developer account.
+
+The included `StarterApp.mobileconfig` is optional and is not needed for the normal Safari installation flow.
 
 ## Customize
 
