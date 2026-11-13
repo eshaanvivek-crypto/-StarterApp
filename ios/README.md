@@ -1,20 +1,19 @@
 # StarterApp Native iOS
 
-This folder contains the native SwiftUI implementation of StarterApp. It is separate from the GitHub Pages PWA in the repository root.
+This folder contains the native SwiftUI app and an openable Xcode project. It is separate from the GitHub Pages PWA in the repository root.
 
-## Create the Xcode project
-1. Open Xcode on a Mac.
-2. Choose **File → New → Project → iOS → App**.
-3. Product Name: `StarterApp`; Interface: **SwiftUI**; Language: **Swift**.
-4. Replace the generated app entry point with `StarterAppApp.swift` and add `ContentView.swift` from this folder to the app target.
-5. Set a unique Bundle Identifier, such as `com.yourcompany.starterapp`.
-6. Under **Signing & Capabilities**, enable automatic signing and select your Apple Developer team.
+## Run it on an iPhone
+1. Install Xcode on a Mac and open `ios/StarterApp.xcodeproj`.
+2. Connect an iPhone, unlock it, and trust the Mac if prompted.
+3. In **Signing & Capabilities**, select your Apple ID team. Keep automatic signing enabled.
+4. Select the connected iPhone as the run destination and press **Run**.
+
+A free Apple ID can install a development build on your own iPhone without a paid Apple Developer membership. Free provisioning is temporary and must be renewed periodically; it is not a permanent distributable `.ipa`.
 
 ## Distribution
-- Use Xcode to run the app on your own connected iPhone.
-- Use **Product → Archive** and App Store Connect to upload a signed build for TestFlight.
-- TestFlight is the recommended way to share with friends. Friends install Apple's TestFlight app and accept your invitation.
-- Ad Hoc distribution is possible but requires registering each device UDID and provisioning a new build.
+- App Store/TestFlight distribution requires the paid Apple Developer Program.
+- Ad Hoc distribution also requires paid membership, device registration, and provisioning.
+- For no-signing/no-cost installation, use the PWA at `https://eshaanvivek-crypto.github.io/-StarterApp/`.
 
 ## Current implementation
 Native SwiftUI tabs: Home, Courses, Assignments, Inbox, Profile. Assignments have local completion toggles. All school data is fictional demo data.

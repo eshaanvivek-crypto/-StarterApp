@@ -21,6 +21,10 @@ python3 -m http.server 8000
 
 Then open `http://localhost:8000` on the Mac. This is for local preview; it does not make the site available to your iPhone over the internet.
 
+## Native iOS app
+
+The repository also includes a native SwiftUI app at `ios/StarterApp.xcodeproj`. Open it in Xcode on a Mac and run it on an iPhone using a free Apple ID for personal testing. Native iPhone builds still require Apple signing; use the PWA above if you want installation without Xcode or paid developer membership.
+
 ## Publish it
 
 This repository includes a GitHub Pages workflow. Push to `main`, then enable **Settings → Pages → GitHub Actions** once in the repository. The site will be published at:
