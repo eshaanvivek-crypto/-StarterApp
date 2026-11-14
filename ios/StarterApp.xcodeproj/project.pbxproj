@@ -5,15 +5,13 @@
   objectVersion = 56;
   objects = {
     A10000000000000000000001 /* StarterAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000001 /* StarterAppApp.swift */; };
-    A10000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10000000000000000000002 /* ContentView.swift */; };
     B10000000000000000000001 /* StarterAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterAppApp.swift; sourceTree = "<group>"; };
-    B10000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
     B10000000000000000000003 /* StarterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-    C10000000000000000000001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001, A10000000000000000000002,); runOnlyForDeploymentPostprocessing = 0; };
+    C10000000000000000000001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001,); runOnlyForDeploymentPostprocessing = 0; };
     C10000000000000000000002 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
     C10000000000000000000003 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
     D10000000000000000000001 = {isa = PBXGroup; children = (D10000000000000000000002, D10000000000000000000003,); sourceTree = "<group>"; };
-    D10000000000000000000002 /* StarterApp */ = {isa = PBXGroup; path = .; sourceTree = "<group>"; children = (B10000000000000000000001, B10000000000000000000002,); };
+    D10000000000000000000002 /* StarterApp */ = {isa = PBXGroup; path = .; sourceTree = "<group>"; children = (B10000000000000000000001,); };
     D10000000000000000000003 /* Products */ = {isa = PBXGroup; name = Products; sourceTree = "<group>"; children = (B10000000000000000000003,); };
     E10000000000000000000001 /* StarterApp */ = {isa = PBXNativeTarget; buildConfigurationList = F10000000000000000000001; buildPhases = (C10000000000000000000001, C10000000000000000000002, C10000000000000000000003,); buildRules = (); dependencies = (); name = StarterApp; productName = StarterApp; productReference = B10000000000000000000003; productType = "com.apple.product-type.application"; };
     E10000000000000000000002 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastUpgradeCheck = 1600; TargetAttributes = {E10000000000000000000001 = {CreatedOnToolsVersion = 16.0; }; }; }; buildConfigurationList = F10000000000000000000002; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base,); mainGroup = D10000000000000000000001; productRefGroup = D10000000000000000000003; projectDirPath = ""; projectRoot = ""; targets = (E10000000000000000000001,); };
