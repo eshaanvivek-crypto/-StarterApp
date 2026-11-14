@@ -4,11 +4,13 @@ This folder contains the native SwiftUI app and an openable Xcode project. It is
 
 ## Run it on an iPhone
 1. Install Xcode on a Mac and open `ios/StarterApp.xcodeproj`.
-2. Connect an iPhone, unlock it, and trust the Mac if prompted.
+2. Connect an iPhone 13, unlock it, and trust the Mac if prompted.
 3. In **Signing & Capabilities**, select your Apple ID team. Keep automatic signing enabled.
-4. Select the connected iPhone as the run destination and press **Run**.
+4. Select the connected **iPhone 13** as the run destination and press **Run**.
 
 A free Apple ID can install a development build on your own iPhone without a paid Apple Developer membership. Free provisioning is temporary and must be renewed periodically; it is not a permanent distributable `.ipa`.
+
+The target is configured for iPhone only (`TARGETED_DEVICE_FAMILY = 1`) and supports iPhone 13 running iOS 17 or newer.
 
 ## Distribution
 - App Store/TestFlight distribution requires the paid Apple Developer Program.
